@@ -75,7 +75,7 @@ header > .collapsible-header{
 }
 
 .hero-bg-gradient{
-    background: linear-gradient(180deg, rgba(24,27,32,0.9) 30%, rgba(0,0,0,0.258140756302521) 65%);
+    background: linear-gradient(180deg, #181b20e6 30%, rgba(0,0,0,0.258140756302521) 65%);
 }
 
 .opacity-0{
@@ -97,6 +97,28 @@ header > .collapsible-header{
     display: flex;
     cursor: pointer;
 }
+
+.toplock{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #181b20e6
+}
+
+/* #toTop{
+    padding: 10px 15px;
+    width: max-content;
+    border-radius: 24px;
+    color: var(--btn-color);
+    background-color: var(--btn-bg);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+} */
 
 .btn:hover{
 
@@ -124,7 +146,7 @@ header > .collapsible-header{
     overflow: hidden;
     white-space: nowrap;
     width: 100%;
-    max-width: 800px;
+    max-width: 1500px;
 }
   
 .carousel {
@@ -135,6 +157,19 @@ header > .collapsible-header{
 .carousel-img {
     display: inline-block;
     margin: 0 20px;
+}
+
+div.scroll-container {
+  background-color: #181b20e6;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+  max-width: 350px;
+  max-height: 350px;
 }
   
 @keyframes scroll {

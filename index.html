@@ -37,13 +37,13 @@
     </head>
     
     <body class="tw-flex tw-font-mono tw-min-h-[100vh] tw-flex-col tw-bg-[#181B20] tw-text-white">
-      
+        
 
         <header
-            class="lg:tw-justify-around tw-max-w-lg:tw-px-4 tw-max-w-lg:tw-mr-auto tw-absolute tw-top-0 tw-z-20 tw-flex tw-h-[60px] tw-w-full tw-bg-opacity-0 tw-px-[5%] 
-                    tw-text-white"
+            class="lg:tw-justify-around tw-max-w-lg:tw-px-4 tw-max-w-lg:tw-mr-auto tw-top-0 tw-z-20 tw-flex tw-h-[60px] tw-w-full tw-bg-opacity-100 tw-px-[5%] 
+                    tw-text-white toplock"
         >
-            <a class="tw-h-[50px] tw-w-[50px] tw-p-[4px]" href="">
+            <a class="tw-h-[50px] tw-w-[50px] tw-p-[4px]" href="./index.html">
                 <img
                     src="./assets/logo/logo.png"
                     alt="logo"
@@ -59,8 +59,7 @@
                 >
                     <a class="header-links" href="#about"> Services </a>
                     <a class="header-links" href="#reviews"> Reviews </a>
-                    <a class="header-links" href="#find-us"> Contact Us </a>
-                    <a class="header-links" href="#find-us"> Location </a>
+                    <a class="header-links" href="./contact-us.html"> Contact Us + Location </a>
                 </div>
                 <div 
                     class="tw-rounded-full tw-bg-secondary tw-px-3 tw-py-2 !tw-text-secondary tw-transition-transform tw-duration-[0.3s] hover:tw-translate-x-2 tw-mx-4 tw-flex tw-place-items-center tw-gap-[20px] tw-text-base max-md:tw-w-full max-md:tw-flex-col max-md:tw-place-content-center"
@@ -113,7 +112,12 @@
                 id="collapse-btn"
             ></button>
         </header>
-
+        <!-- <a
+            class="tw-transition-transform tw-duration-[0.3s] hover:tw-scale-x-[1.03]"
+            onclick="toTop()" id="toTop"
+            >
+            Top
+        </a> -->
         <section
             class="tw-relative tw-flex tw-min-h-[100vh] hero-section tw-w-full tw-max-w-[100vw] tw-flex-col tw-overflow-hidden max-md:tw-mt-[50px]"
             id="hero-section"
@@ -194,7 +198,6 @@
             class="tw-relative tw-flex tw-flex-col tw-w-full tw-max-w-[200vw]
                     tw-place-content-center tw-place-items-center tw-overflow-hidden tw-p-8"
         >
-
             <!--<h2 class="reveal-up tw-text-3xl max-md:tw-text-xl">Carousel Here</h2>-->
 
             <div class="reveal-up carousel-container">
@@ -350,9 +353,11 @@
                     <div
                         class="reveal-up tw-flex tw-h-[150px] tw-w-[350px] tw-flex-col tw-gap-2 tw-p-4 tw-text-center"
                     >
-                        <img src="./assets/images/services/packages.png" 
-                            class="tw-rounded-lg"
-                            alt="offers & packages">
+                        <a href="./packages.html">
+                            <img src="./assets/images/services/packages.png" 
+                                class="tw-rounded-lg"
+                                alt="offers & packages">
+                        </a>
                         <!-- <i
                             class="bi bi-boombox-fill tw-text-5xl tw-text-primary"
                         ></i> -->
