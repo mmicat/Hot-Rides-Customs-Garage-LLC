@@ -145,7 +145,7 @@ header > .collapsible-header{
 .carousel-container {
     overflow: hidden;
     white-space: nowrap;
-    width: 100%;
+    width: 75%;
     max-width: 1500px;
 }
   
